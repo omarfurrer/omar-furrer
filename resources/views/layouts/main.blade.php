@@ -18,7 +18,7 @@
 
             @include('shared._navbar');
 
-            <main class="py-4">
+            <main class="pt-4">
                 @yield('content')
             </main>
         </div>
@@ -26,6 +26,9 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}"></script>
         <script src="{{ asset('js/all.js') }}"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]', {speed: 1500});
+        </script>
         @stack('scripts')
     </body>
 </html>

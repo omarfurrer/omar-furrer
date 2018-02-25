@@ -12,5 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-        .mix.scripts(['resources/assets/js/libs/typewriter.js'], 'public/js/all.js')
+        .mix.scripts([
+            'resources/assets/js/libs/typewriter.js',
+            'node_modules/smooth-scroll/dist/js/smooth-scroll.min.js'], 'public/js/all.js')
         .sass('resources/assets/sass/app.scss', 'public/css');
