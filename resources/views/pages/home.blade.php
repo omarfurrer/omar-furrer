@@ -4,11 +4,15 @@
 <div id="home" class="container-fluid">
     <div id="about">
         <div class="row justify-content-center mb-5">
+            <div class="col-md-8 text-center">
+                <img class="rounded-circle pp mb-5" src="{{ asset('images/pp1.jpg') }}" alt="Omar Furrer">
+                <h1 id="of-main-header" class="text-white h3"></h1>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
             <div class="col-md-8">
                 <div class="card text-center">
                     <div class="card-body px-5">
-                        <img class="rounded-circle pp mb-3" src="{{ asset('images/pp1.jpg') }}" alt="Omar Furrer">
-                        <h5 class="card-title">Hello and welcome to my page, my name is Omar Furrer</h5>
                         <p class="card-text">
                             I am a Full Stack Web Developer with 4+ years of experience. 
                             Over the past few years I have gained a lot of experience building, deploying and maintaining a number 
@@ -125,5 +129,13 @@
     particlesJS.load('about', 'js/config/particles.json', function () {
         console.log('callback - particles.js config loaded');
     });
+
+    var app = document.getElementById('of-main-header');
+
+    var typewriter = new Typewriter(app, {
+    });
+
+    typewriter.typeString('Hello and welcome to my page, my name is Omar Furrer')
+            .start();
 </script>
 @endpush
