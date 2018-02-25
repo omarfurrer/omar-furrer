@@ -2,6 +2,7 @@
 $body-bg: #16262E;
 
 $theme-colors: (
+primary: #16262E,
 secondary: #007991
 );
 
@@ -10,3 +11,11 @@ $link-color: map-get($theme-colors, "secondary");
 $card-border-color: map-get($theme-colors, "secondary");
 
 $card-border-width: 3px;
+
+$spaceCadet : #222E50;
+$tealBlue : #3C7A89;
+
+$colors: (
+"space-cadet": $spaceCadet,
+"teal-blue": $tealBlue
+);

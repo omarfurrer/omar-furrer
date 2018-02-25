@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div id="home" class="container-fluid">
+<div id="home" class="container-fluid px-0">
     <div id="about">
         <div class="row justify-content-center mb-5">
             <div class="col-md-8 text-center">
@@ -106,7 +106,7 @@
                 <h3 class="text-center text-white">Education</h3>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="col-md-8">
                 <div class="card text-center">
                     <div class="card-body">
@@ -117,6 +117,36 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="bg-teal-blue">
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <h3 class="text-center mt-5 text-white">Contact Me</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center pb-5">
+            <div class="col-sm-12 col-lg-6">
+                <form class="text-white">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="john.doe@awesome.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" aria-describedby="subject" placeholder="Help Building Something Cool">
+                    </div>
+                    <div class="form-group">
+                        <label for="details">Details</label>
+                        <textarea class="form-control" id="details" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary float-right">Submit</button>
+                </form>
             </div>
         </div>
     </div>
