@@ -1,4 +1,31 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);#home .title-font {
+  font-family: "Segoe UI";
+}
+
+#home #about {
+  position: relative;
+}
+
+#home #about .pp {
+  width: 125px;
+}
+
+#home #about canvas {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+#home #about .card {
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+}
+
+#home #about .card .card-text {
+  font-size: 18px;
+}
+
+/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -9992,11 +10019,5 @@ a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
-}
-
-.navbar-laravel {
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
