@@ -5,5 +5,8 @@ $theme-colors: (
 secondary: #007991
 );
 
-$link-color: map-get($theme-colors, "secondary");;
+$link-color: map-get($theme-colors, "secondary");
 
+$card-border-color: map-get($theme-colors, "secondary");
+
+$card-border-width: 3px;
