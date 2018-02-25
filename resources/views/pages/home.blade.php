@@ -15,14 +15,14 @@
                             of projects. I enjoy working on challenging problems and love building prototypes.
                             I am also very passionate about startups and learning new technologies.
                         </p>
-                        <p class="card-text">
-                            <a class="btn-link text-danger" href="https://www.linkedin.com/in/omar-furrer-4b1a5aa8/">
+                        <p class="card-text of-links">
+                            <a class="btn-link" target="_blank" href="https://www.linkedin.com/in/omar-furrer-4b1a5aa8/">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://github.com/omarfurrer">
+                            <a class="btn-link" target="_blank" href="https://github.com/omarfurrer">
                                 <i class="fab fa-github-square"></i>
                             </a>
-                            <a href="{{ url('/blog') }}">
+                            <a class="btn-link" target="_blank" href="{{ url('/blog') }}">
                                 <i class="fab fa-blogger"></i>
                             </a>
                         </p>

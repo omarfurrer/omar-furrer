@@ -1,3 +1,9 @@
 // Body
 $body-bg: #16262E;
 
+$theme-colors: (
+secondary: #007991
+);
+
+$link-color: map-get($theme-colors, "secondary");;
+
